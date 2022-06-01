@@ -1,0 +1,293 @@
+@charset  "utf-8";
+body{
+    
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+
+
+}
+
+@media screen and (max-width: 1000px) {
+   
+	.container{
+     color: #FFF;
+background: #15161B;display: flex;
+flex-direction: column;
+   }
+   .container h1{
+      text-align: center;
+      
+      
+
+   }
+   .container span{
+      color: #1A7993;
+   }
+   .left{
+      text-align: center;
+   }
+   .left a{
+      text-decoration: none;
+      color: #FFF;
+      
+   
+      
+   }
+   .left button{
+      background-color: #1a7993;
+      border-radius: 5px;
+      font-weight: 700;
+font-size:20px;
+line-height: 52px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+margin-bottom: 10px;
+
+   
+   }
+   .right img{
+      width: 100%;
+   }
+   main{
+display: flex;
+flex-direction: column;
+      text-align: center;
+      background-color: #15161B;
+      color: #FFF;
+   }
+   .title{
+      margin-top: 20px;
+      font-size: 25px;
+   }
+   main p{
+      background: #2C2F37;
+      border-radius: 5px;
+      cursor: pointer;
+   }
+   .active{
+      background-color: #1A7993;
+   }
+   .area2{
+      background-color: #1A7993;
+   }
+   .lef h1{
+      font-size: 25px;
+   }
+   .lef h5{
+      font-size: 20px;
+      margin-top: -10px;
+     
+   }
+   .lef button{
+      background-color: #FFF;
+      border-radius: 5px;
+      font-weight: 700;
+font-size:20px;
+line-height: 52px;
+/* identical to box height */
+
+
+color: black;
+margin-bottom: 10px;
+
+
+   }
+   .rig{
+      display: none;
+   }
+   .area3{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+   }
+   .area3 h1{
+      font-size: 24px;
+      text-align: center;
+   }
+   input{
+      width: 200px;
+      display: block;
+      margin: auto;
+   }
+   .area3 button{
+      font-size: 20px;
+      display: block;
+      margin: auto;
+      background-color: #1A7993;
+      color: #FFF;
+   }
+
+}
+@media screen and (min-width: 1001px)  {
+   body{
+      background-color: #15161B;
+      
+   }
+   .container{
+      background-color: #15161B;
+      height: 600px;
+      color: #FFF;
+      display: flex;
+      justify-content: center;
+      padding-bottom: 60px;
+      
+   }
+   .container h1{
+      position: absolute;
+
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 67px;
+  
+  
+  
+  
+  color: #FFFFFF;
+      
+   }
+   span{
+       color: #1A7993;;
+   }
+.right{
+   margin-left: 200px;
+   margin-top: 150px;
+}
+.right img{
+   
+   width: 400px;
+   height: 400px;
+
+}
+.left{
+margin-top: 200px;
+display: flex;
+flex-direction: column;
+margin-left: 60px;
+
+
+
+
+   
+}
+
+.left h2{
+     
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 55px;
+   line-height: 113.7%;
+   /* or 77px */
+   
+   
+   color: #FFFFFF;
+    }
+   
+   .left a{
+      text-decoration: none;
+      text-align: center;
+      color: #FFF;
+      font-size: 30px;
+    font-weight: 400;
+    line-height: 34px;
+
+    
+    
+      
+
+   }
+   .left button{
+    
+      background-color:#1A7993;
+      font-family: 'Oswald';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 27px;
+      line-height: 52px;
+      cursor: pointer;
+      
+      
+      color: #FFFFFF;
+      
+      
+   }
+   .geral{
+      display: block;
+      background-color: #15161B;
+      color: #FFF;
+      text-align: center;
+   }
+   .title{
+     font-size: 40px;
+     padding-bottom: 10px;
+     background-color: #2C2F37;
+     cursor: pointer;
+     margin: auto;
+     
+   }
+
+   .geral p{
+      background-color:#2C2F37; 
+      font-size: 20px;
+      cursor: pointer;
+   }
+  .geral .active{
+      background-color: #1A7993;
+   }
+  .area2{
+     background-color: #1A7993;
+     display: flex;
+     flex-direction: row;
+     color: #FFF;
+  }
+  .rig img{
+     height: 400px;
+     margin-top: 50px;
+     margin-right: 40px;
+     margin-bottom: 20px;
+  }
+  .lef h1{
+     margin-top: 100px;
+     font-size: 50px;
+     text-align: center;
+  }
+
+.lef h5{
+   text-align: center;
+   font-size: 29px;
+   margin-top: -30px;
+}
+
+.lef button{
+   margin: auto;
+   display: block;
+   font-size: 27px;
+   background-color: white;
+   cursor: pointer;
+   color: #1A7993;
+}
+.final{
+   color: #FFF;
+   text-align: center;
+   margin-bottom: 60px;
+}
+   input{
+      width: 500px;
+      margin-bottom: 10px;
+   }
+   .area3 button{
+      
+   font-size: 27px;
+   background-color: #1A7993;
+   cursor: pointer;
+   color: #FFF;
+}
+   }
+ 
+}
